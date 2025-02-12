@@ -165,7 +165,7 @@
             margin: 0;
         }
 
-        nav > a {
+        nav ul.menu {
             text-decoration: none;
             font-size: 1.5em;
             font-family: var(--main-text);
@@ -173,33 +173,43 @@
             border-radius: 0 0 .75em .75em;
             color: var(--dark-gray);
             float: right;
-            padding: .5em;
+            padding: .50em;
+            margin: 0;
         }
 
         ul li {
             display: inline-block;
             position: relative;
+            margin: 0 auto;
         }
 
         ul li a {
             display: block;
             font-family: var(--main-text);
             text-decoration: none;
-            padding: 5px;
             color: var(--dark-gray);
+            padding: .25em;
             float: right;
         }
 
         ul li ul.dropdown li {
+            font-family: var(--main-text);
+            font-size: .75em;
             display: block;
+            float: left;
+            right: 30px;
         }
 
         ul li ul.dropdown {
-            width: 100%;
+            width: 78.5%;
             background: var(--yellow);
             position: absolute;
             z-index: 999;
+            right: -12px;
             display: none;
+            border-radius: 0 0 .75em .75em;
+            padding-bottom: .55em;
+            margin: 0;
         }
 
         ul li a:hover {
@@ -216,8 +226,9 @@
             text-align: center;
             font-size: 3em;
             background: var(--lavender);
-            padding: 1em;
+            padding: 1.5em .25em .75em;
             border-radius: 0 0 1em 1em;
             color: var(--white);
+            margin: 0;
         }
     }
