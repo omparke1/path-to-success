@@ -161,7 +161,7 @@
 
     {
 
-        header > h1 {
+        h1 {
             font-family: var(--title);
             text-align: center;
             font-size: 3em;
