@@ -160,13 +160,64 @@
     @media only screen and (min-width: 450px)
 
     {
+ 
+        body {
+            margin: 0;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-size: 1.5em;
+            font-family: var(--main-text);
+            background: var(--yellow);
+            border-radius: 0 0 .75em .75em;
+            color: var(--dark-gray);
+            float: right;
+            padding: .5em;
+        }
+
+        ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        ul li a {
+            display: block;
+            font-family: var(--main-text);
+            text-decoration: none;
+            padding: 5px;
+            color: var(--dark-gray);
+            float: right;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li ul.dropdown {
+            width: 100%;
+            background: var(--yellow);
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+
+        ul li a:hover {
+            color: var(--white);
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+        }
 
         h1 {
+            color: var(--dark-gray);
             font-family: var(--title);
             text-align: center;
             font-size: 3em;
             background: var(--lavender);
-            padding: 2.5em 2em;
-            border-radius: 0 0 2em 2em;
+            padding: 1em;
+            border-radius: 0 0 1em 1em;
+            color: var(--white);
         }
     }
