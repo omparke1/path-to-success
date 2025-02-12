@@ -144,12 +144,12 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-  root {
-  --title: font-family: 'Kavoon', Serif;
-  --main-text: font-family: 'Inter', Serif;
-  --teal : #4CA7C0
-  --purple: #484FB7
-  --lavender: #6B8FE7
+  :root {
+  --title: 'Kavoon', Serif;
+  --main-text: 'Inter', Serif;
+  --teal : #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
   --yellow: #E9BB57; 
   --pink:#D9526F;
   --dark-gray:#1E1E1E; 
@@ -160,7 +160,8 @@
     @media only screen and (min-width: 450px)
 
     {
-        h1 {
+
+        header > h1 {
             font-family: var(--title);
             text-align: center;
             font-size: 3em;
