@@ -165,6 +165,20 @@
             margin: 0;
         }
 
+        h1 {
+            color: var(--dark-gray);
+            font-family: var(--title);
+            text-align: center;
+            font-size: 3em;
+            background: var(--lavender);
+            padding: 1.5em .25em .75em;
+            border-radius: 0 0 1em 1em;
+            color: var(--white);
+            margin: 0;
+            position: relative;
+            z-index: 20;
+        }
+
         nav ul.menu {
             text-decoration: none;
             font-size: 1.5em;
@@ -173,14 +187,16 @@
             border-radius: 0 0 .75em .75em;
             color: var(--dark-gray);
             float: right;
-            padding: .50em;
+            padding: .45em;
             margin: 0;
+            top: -168px;
+            position: relative;
+            z-index: 999;
         }
 
         ul li {
             display: inline-block;
             position: relative;
-            margin: 0 auto;
         }
 
         ul li a {
@@ -201,7 +217,7 @@
         }
 
         ul li ul.dropdown {
-            width: 78.5%;
+            width: 76.5%;
             background: var(--yellow);
             position: absolute;
             z-index: 999;
@@ -220,15 +236,4 @@
             display: block;
         }
 
-        h1 {
-            color: var(--dark-gray);
-            font-family: var(--title);
-            text-align: center;
-            font-size: 3em;
-            background: var(--lavender);
-            padding: 1.5em .25em .75em;
-            border-radius: 0 0 1em 1em;
-            color: var(--white);
-            margin: 0;
-        }
     }
