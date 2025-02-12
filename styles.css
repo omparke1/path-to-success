@@ -145,7 +145,6 @@
   }
 
   root {
-
   --title: font-family: 'Kavoon', Serif;
   --main-text: font-family: 'Inter', Serif;
   --teal : #4CA7C0
@@ -156,3 +155,17 @@
   --dark-gray:#1E1E1E; 
   --white:#ffffff; 
   }
+
+  /* Small Screen */
+    @media only screen and (min-width: 450px)
+
+    {
+        h1 {
+            font-family: var(--title);
+            text-align: center;
+            font-size: 3em;
+            background: var(--lavender);
+            padding: 2.5em 2em;
+            border-radius: 0 0 2em 2em;
+        }
+    }
