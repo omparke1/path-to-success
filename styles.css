@@ -245,7 +245,7 @@
 
         .pink-header {
             background: var(--pink);
-            border-radius: 0 0 50px 50px;
+            border-radius: 0 0 55px 55px;
             padding: 2em 2em .10em;
             position: relative;
             top: -21px;
@@ -269,5 +269,24 @@
             .hidden-text {
                 display: flex;
             }
+        }
+
+        body {
+            background: var(--purple);
+        }
+
+        h2 {
+            color: var(--white);
+            font-size: 2em;
+            font-family: var(--title);
+            margin-left: .75em;
+            margin-bottom: .25em;
+        }
+
+        h3 {
+            color: var(--yellow);
+            font-family: var(--title);
+            font-size: 1.5em;
+            margin: .25em 0 .50em 1em;
         }
     }
