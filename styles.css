@@ -372,4 +372,129 @@
             margin: 0 1.5em 1.25em;
             line-height: 1.5em;
         }
+
+        #group-coaching h3 {
+            font-family: var(--title);
+            font-size: 1.5em;
+            margin: .50em 0 .50em 1em;
+            color: var(--yellow);
+        }
+
+        #supportive-com{
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 0 2em 0;
+        }
+
+        #supportive-com > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #supportive-com > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #supportive-com > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
+
+        #focused-session{
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 1em 2em 0;
+        }
+
+        #focused-session > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #focused-session > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #focused-session > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
+
+        #workshops h3 {
+            font-family: var(--title);
+            font-size: 1.5em;
+            margin: .50em 0 .50em 1em;
+            color: var(--yellow);
+        }
+
+        #interactive-learn {
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 0 2em 0;
+        }
+
+        #interactive-learn > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #interactive-learn > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #interactive-learn > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
+
+        #online h3 {
+            font-family: var(--title);
+            font-size: 1.5em;
+            margin: .50em 0 .50em 1em;
+            color: var(--yellow);
+        }
+
+        #flex-learn {
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 0 2em 0;
+        }
+
+        #flex-learn > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #flex-learn > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #flex-learn > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        } 
     }
