@@ -289,4 +289,87 @@
             font-size: 1.5em;
             margin: .25em 0 .50em 1em;
         }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        #personal {
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 0 2em;
+        }
+
+        #personal > img {
+            margin: 1em 1em .25em 1.5em;
+        }
+
+        #personal > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #personal > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
+
+        #career-coaching {
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 1em 2em 0;
+        }
+
+        #career-coaching > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #career-coaching > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #career-coaching > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
+
+        #relationship-coach {
+            background: var(--white);
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+            margin: 1em 2em 0;
+        }
+
+        #relationship-coach > img {
+            margin: 1.75em 1em .80em 1.5em;
+        }
+
+        #relationship-coach > h4 {
+            font-size: 1.15em;
+            margin: 0 0 .50em 1.5em;
+            font-family: var(--main-text);
+        }
+
+        #relationship-coach > p {
+            font-size: 1.15em;
+            font-family: var(--main-text);
+            margin-top: 0;
+            margin: 0 1.5em 1.25em;
+            line-height: 1.5em;
+        }
     }
