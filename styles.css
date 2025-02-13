@@ -273,6 +273,7 @@
 
         body {
             background: var(--purple);
+            padding-bottom: 2.5em;
         }
 
         h2 {
@@ -567,7 +568,99 @@
             color: var(--white);
         }
 
-        #white li:hover {
+        table#one-one-table {
+            background: var(--yellow);
+            margin-left: 8em;
+            padding: 0;
+            margin-bottom: .75em;
+        }
+
+        tr > th {
+            margin: 0;
+            padding: .75em;
+            font-family: var(--main-text);
+        }
+
+        tr > td {
+            background: var(--white);
+            font-family: var(--main-text);
+            padding: 1em;
+        }
+
+        table#group-table {
+            background: var(--yellow);
+            margin-left: 8em;
+            padding: 0;
+            margin-bottom: .75em;
+        }
+
+        table#workshops-table {
+            background: var(--yellow);
+            margin-left: 8em;
+            padding: 0;
+            margin-bottom: .75em;
+        }
+
+        table#online-table {
+            background: var(--yellow);
+            margin-left: 8em;
+            padding: 0;
+            margin-bottom: .80em;
+        }
+
+        #first-steps {
+            background: var(--pink);
+            padding-top: .1em;
+            padding-bottom: 3em;
+        }
+
+        #first-steps h2 {
+            margin-left: .65em;
+            margin-top: .25em;
+        }
+
+        #first-steps > p {
+            color: var(--white);
+            margin: 0 1.75em;
+            font-family: var(--main-text);
+            font-size: .90em;
+            line-height: 1.80em;
+        }
+
+        #first-steps a {
+            text-align: center;
+            font-family: var(--main-text);
+            font-size: 1em;
+            padding: 1em 7em;
+            background: var(--white);
+            border-radius: 10px;
+            position: relative;
+            right: -81px;
+            top: 22px;
+            text-decoration: none;
+            color: var(--dark-gray);
+            box-shadow: 5px 5px 5px 0 var(--dark-gray);
+        }
+
+        #first-steps a:hover {
             color: var(--yellow);
+        }
+
+        footer {
+            background: var(--lavender);
+            padding: 2.5em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: var(--white);
+            gap: 1em;
+        }
+
+        #copyright {
+            margin-left: 3em;
+        }
+
+        footer a {
+            color: var(--white);
+            margin-right: 3em;
         }
     }
