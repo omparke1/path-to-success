@@ -156,7 +156,7 @@
   --white:#ffffff; 
   }
 
-  /* Small Screen */
+/* Small Screen */
     @media only screen and (min-width: 450px)
 
     {
@@ -668,6 +668,28 @@
         }
     }
 
+ /* Medium Screen */
     @media only screen and (min-width: 620px) {
 
+
+        .pink-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            text-align: right;
+        }
+
+        .pink-header p {
+            display: inline;
+            margin: 0;
+        }
+
+        .hidden-text {
+            display: inline;
+            color: var(--white);
+            font-family: var(--main-text);
+            font-size: 1.25em;
+            padding-left: .25em;
+        }
     }
