@@ -497,4 +497,11 @@
             margin: 0 1.5em 1.25em;
             line-height: 1.5em;
         } 
+
+        #choose-us {
+            background: var(--pink);
+            padding: 1em;
+            margin-top: 1.5em;
+            height: auto;
+        }
     }
