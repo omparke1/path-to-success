@@ -243,5 +243,31 @@
             display: block;
         }
 
+        .pink-header {
+            background: var(--pink);
+            border-radius: 0 0 50px 50px;
+            padding: 2em 2em .10em;
+            position: relative;
+            top: -21px;
+            right: 0px;
+            margin: 0 12px;
+        }
 
+        header p {
+            color: var(--white);
+            font-family: var(--main-text);
+            font-size: 1.25em;
+            text-align: center;
+            margin: 0 2.5em .25em;
+        }
+
+        .hidden-text {
+            display: none;
+        }
+
+        @media only screen and (min-width: 620px) {
+            .hidden-text {
+                display: flex;
+            }
+        }
     }
