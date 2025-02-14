@@ -610,7 +610,7 @@
         #first-steps {
             background: var(--pink);
             padding-top: .1em;
-            padding-bottom: 3em;
+            padding-bottom: 1.75em;
         }
 
         #first-steps h2 {
@@ -620,22 +620,22 @@
 
         #first-steps > p {
             color: var(--white);
-            margin: 0 1.75em;
+            margin: 0 1.75em 1.65em;
             font-family: var(--main-text);
             font-size: .90em;
             line-height: 1.80em;
         }
 
-        #first-steps a {
+        #first-steps > a {
+            display: flex;
+            justify-content: center;
             text-align: center;
             font-family: var(--main-text);
             font-size: 1em;
-            padding: 1em 7em;
+            padding: 1em 5em;
+            margin: 0 3em;
             background: var(--white);
             border-radius: 10px;
-            position: relative;
-            right: -81px;
-            top: 22px;
             text-decoration: none;
             color: var(--dark-gray);
             box-shadow: 5px 5px 5px 0 var(--dark-gray);
@@ -652,6 +652,7 @@
             grid-template-columns: 1fr 1fr;
             color: var(--white);
             gap: 1em;
+            border-radius: 0 0 25px 25px;
         }
 
         #copyright {
@@ -846,8 +847,9 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-            gap: 1em;
+            gap: .50em;
         }
+
 
 
 
