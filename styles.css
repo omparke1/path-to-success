@@ -712,7 +712,7 @@
         .container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: auto;
             justify-content: center;
             gap: 5px;
             margin: 0 auto;
@@ -721,7 +721,7 @@
         #personal {
             width: 90%;
             margin-top: .93em;
-            margin-left: 1.35em;
+            margin-left: 2em;
         }
 
         #career-coaching {
@@ -731,77 +731,41 @@
         }
 
         #relationship-coach {
-            width: 187%;
-            height: 65%;
-            margin-left: 1.35em;
-            margin-bottom: 0;
-            padding-bottom: 0;
+            grid-column: span 2;
+            width: 92.5%;
+            height: auto;
+            margin-left: 2em;
+
         }
 
-        #group-coaching h3 {
-            margin-top: 0;
-            padding-top: 0;
-            position: relative;
-            top: -5.2em;
+        #relationship-coach p {
+            padding-bottom: 1em;
         }
 
         #supportive-com {
             width: 90%;
-            margin-left: 1.35em;
             margin-top: .93em;
-            position: relative;
-            top: -8em;
-            margin-bottom: 0;
-            padding-bottom: 0;
+            margin-left: 2em;
         }
 
         #focused-session {
             width: 90%;
             position: relative;
             right: 23px;
-            top: -8em;
-            margin-bottom: 0;
-            padding-bottom: 0;
         }
-
-        #workshops h3 {
-            margin-top: 0;
-            padding-top: 0;
-            position: relative;
-            top: -25.3em;
-        }
-
+       
         #interactive-learn {
-            width: 187%;
+            grid-column: span 2;
+            width: 92.5%;
             height: auto;
-            margin-left: 1.35em;
-            margin-bottom: 0;
-            padding-bottom: 0;
-            position: relative;
-            top: -37.5em;
-        }
-
-        #online h3 {
-            margin-top: 0;
-            padding-top: 0;
-            position: relative;
-            top: -37.5em;
+            margin-left: 2em;
         }
 
         #flex-learn {
-            width: 187%;
+            grid-column: span 2;
+            width: 92.5%;
             height: auto;
-            margin-left: 1.35em;
-            margin-bottom: 0;
-            padding-bottom: 0;
-            position: relative;
-            top: -56.2em;
-        }
-
-        #service {
-            padding: 0;
-            height: 134.5em;
-            margin: 0;
+            margin-left: 2em;
         }
 
         #choose-us h2 {
@@ -883,4 +847,11 @@
         }
 
         
+    }
+
+ /* Large Screen */
+    @media only screen and (min-width: 950px) {
+        .menu {
+            position: absolute;
+        }
     }
