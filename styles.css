@@ -259,9 +259,9 @@
         header p {
             color: var(--white);
             font-family: var(--main-text);
-            font-size: 1.25em;
+            font-size: 1em;
             text-align: center;
-            margin: 0 2.5em .25em;
+            margin: 0 2.5em .20em;
         }
 
         .hidden-text {
@@ -689,7 +689,164 @@
             display: inline;
             color: var(--white);
             font-family: var(--main-text);
-            font-size: 1.25em;
+            font-size: 1em;
             padding-left: .25em;
         }
+
+        main {
+            margin-bottom: -10px;
+            padding-bottom: 0px;
+        }
+
+        #service {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-content: center;
+            gap: 5px;
+            margin: 0 auto;
+        }
+
+        #personal {
+            width: 90%;
+            margin-top: .93em;
+            margin-left: 1.35em;
+        }
+
+        #career-coaching {
+            width: 90%;
+            position: relative;
+            right: 23px;
+        }
+
+        #relationship-coach {
+            width: 187%;
+            height: 65%;
+            margin-left: 1.35em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        #group-coaching h3 {
+            margin-top: 0;
+            padding-top: 0;
+            position: relative;
+            top: -5.2em;
+        }
+
+        #supportive-com {
+            width: 90%;
+            margin-left: 1.35em;
+            margin-top: .93em;
+            position: relative;
+            top: -8em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        #focused-session {
+            width: 90%;
+            position: relative;
+            right: 23px;
+            top: -8em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        #workshops h3 {
+            margin-top: 0;
+            padding-top: 0;
+            position: relative;
+            top: -25.3em;
+        }
+
+        #interactive-learn {
+            width: 187%;
+            height: auto;
+            margin-left: 1.35em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            position: relative;
+            top: -37.5em;
+        }
+
+        #online h3 {
+            margin-top: 0;
+            padding-top: 0;
+            position: relative;
+            top: -37.5em;
+        }
+
+        #flex-learn {
+            width: 187%;
+            height: auto;
+            margin-left: 1.35em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            position: relative;
+            top: -56.2em;
+        }
+
+        #service {
+            padding: 0;
+            height: 134.5em;
+            margin: 0;
+        }
+
+        #choose-us h2 {
+            margin-left: .25em;
+        }
+
+        #box-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            flex-wrap: wrap;
+            gap: 1em;
+            margin-left: 0;
+        }
+
+
+        #green {
+            padding-top: 1.50em;
+            padding-left: 1.50em;
+            padding-bottom: 1.50em;
+            text-align: center;
+            justify-items: center;
+            margin-right: 20px;
+            margin-left: -32px;
+            width: 70%;
+        }
+
+        #blue {
+            padding: 1.50em 1.25em 1.50em;
+            text-align: center;
+            justify-items: center;
+            margin-right: 0;
+        }
+
+        #yellow {
+            padding: 1.50em 1.25em 1.50em;
+            margin-left: -24px;
+            text-align: center;
+            justify-items: center;
+            width: 80%;
+        }
+
+        #white {
+            padding: 1.50em 1.25em 1.50em;
+            margin-left: -12px;
+            text-align: center;
+            justify-items: center;
+            width: 69%;
+        }
+
+
+
+
     }
