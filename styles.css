@@ -290,7 +290,7 @@
 
         h3 {
             color: var(--yellow);
-            font-family: var(--title);
+            font-family: var(--main-text);
             font-size: 1.5em;
             margin: .25em 0 .50em 1em;
         }
@@ -379,7 +379,7 @@
         }
 
         #group-coaching h3 {
-            font-family: var(--title);
+            font-family: var(--main-text);
             font-size: 1.5em;
             margin: .50em 0 .50em 1em;
             color: var(--yellow);
@@ -438,7 +438,7 @@
         }
 
         #workshops h3 {
-            font-family: var(--title);
+            font-family: var(--main-text);
             font-size: 1.5em;
             margin: .50em 0 .50em 1em;
             color: var(--yellow);
@@ -471,7 +471,7 @@
         }
 
         #online h3 {
-            font-family: var(--title);
+            font-family: var(--main-text);
             font-size: 1.5em;
             margin: .50em 0 .50em 1em;
             color: var(--yellow);
@@ -897,6 +897,137 @@
             text-wrap: nowrap;
             margin: 0 auto;
         }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2em;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0;
+            align-items: start;
+        }
+
+        .service-category {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            padding: 0;
+            align-items: center;
+            width: 100%;
+        }
+
+        .service-category h3 {
+            width: 108%;
+            justify-content: center;
+        }
+
+        .service-category:last-child {
+            justify-self: flex-end;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            width: 100%;
+        }
+
+        .container section {
+            padding: 1.5em;
+            width: 100%;
+        }
+
+        #personal {
+            width: 85%;
+            margin-left: 1em;
+        }
+
+        #personal p, #personal h4, #personal img {
+            margin: 0 auto;
+        }
+
+        #career-coaching {
+            width: 85%;
+            margin-left: 2.5em;
+        }
+
+        #career-coaching p, #career-coaching h4 {
+            margin: 0 auto;
+        }
+
+        #career-coaching img {
+            margin: 0 auto 1em;
+        }
+
+        #relationship-coach {
+            width: 85%;
+            margin-left: 1.3em;
+        }
+
+        #relationship-coach p, #relationship-coach h4, #relationship-coach img {
+            margin: 0 auto;
+        }
+
+        #group-coaching h3 {
+            width: 108%;
+            margin-left: .75em;
+            text-align: center;
+        }
+
+        #supportive-com {
+            width: 85%;
+            margin-left: 1em;
+            margin-top: .60em;
+        }
+
+        #supportive-com p, #supportive-com h4, #supportive-com img {
+            margin: 0 auto;
+        }
+
+        #focused-session {
+            width: 85%;
+            margin-left: 2.5em;
+        }
+
+        #focused-session p, #focused-session h4, #focused-session img {
+            margin: 0 auto;
+        }
+
+        #workshops > h3 {
+            display: flex;
+        }
+
+        #interactive-learn {
+            width: 85%;
+            margin-left: 1em;
+            margin-top: .60em;
+        }
+
+        #interactive-learn p, #interactive-learn h4, #interactive-learn img {
+            margin: 0 auto;
+        }
+
+        #online {
+            position: relative;
+            right: -15em;
+            top: -40.3em;
+        }
+
+        #flex-learn {
+            width: 85%;
+            margin-left: 1em;
+            margin-top: .60em;position: relative;
+        }
+
+        #flex-learn p, #flex-learn h4, #flex-learn img {
+            margin: 0 auto;
+        }
+
+
+       
+
+       
 
         
 
