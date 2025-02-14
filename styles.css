@@ -197,6 +197,7 @@
             margin: 0;
             position: relative;
             z-index: 999;
+            font-weight: bold;
         }
 
         nav ul.menu {
@@ -227,11 +228,11 @@
         }
 
         ul li ul.dropdown {
-            width: 76.5%;
+            width: 77%;
             background: var(--yellow);
             position: absolute;
             z-index: 999;
-            right: -12px;
+            right: -10.7px;
             display: none;
             border-radius: 0 0 .75em .75em;
             padding-bottom: .55em;
@@ -529,6 +530,7 @@
             height: 40%;
             text-align: center;
             margin-left: -1.75em;
+            font-weight: bold;
         }
 
         #blue {
@@ -541,6 +543,7 @@
             height: 40%;
             text-align: center;
             margin-left: -1.45em;
+            font-weight: bold;
         }
 
         #yellow {
@@ -553,6 +556,7 @@
             text-align: center;
             margin-left: -1.75em;
             height: 40%;
+            font-weight: bold;
         }
         #white {
             background: var(--white);
@@ -565,6 +569,7 @@
             margin-left: -1.45em;
             line-height: .65em;
             height: 40%;
+            font-weight: bold;
         }
 
         #white li:hover {
@@ -851,7 +856,49 @@
 
  /* Large Screen */
     @media only screen and (min-width: 950px) {
-        .menu {
-            position: absolute;
+
+        nav ul.menu {
+            position: fixed;
+            align-items: center;
+            gap: 1em;
+            padding: .25em 0;
+            margin: 0 0 0 24.2em;
+            top: -5px;
+            left: -11.5em;
+            width: 68.5%;
+            z-index: 999;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: none;
         }
+
+        ul.menu li {
+            display:inline-block;
+        }
+
+    
+        ul.menu li ul.dropdown {
+            display: flex;
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: .85em;
+            gap: 2em;
+            font-size: .80em;
+            width: 62%;
+            margin: 0 auto;
+        }
+
+        ul.menu li ul.dropdown li {
+            display: inline-block;
+            position: relative;
+            right: 0;
+            text-wrap: nowrap;
+            margin: 0 auto;
+        }
+
+        
+
+    
     }
