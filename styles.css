@@ -573,9 +573,8 @@
 
         table#one-one-table {
             background: var(--yellow);
-            margin-left: 8em;
+            margin: 0 auto;
             padding: 0;
-            margin-bottom: .75em;
         }
 
         tr > th {
@@ -592,23 +591,20 @@
 
         table#group-table {
             background: var(--yellow);
-            margin-left: 8em;
             padding: 0;
-            margin-bottom: .75em;
+            margin: 0 auto;
         }
 
         table#workshops-table {
             background: var(--yellow);
-            margin-left: 8em;
             padding: 0;
-            margin-bottom: .75em;
+            margin: 0 auto;
         }
 
         table#online-table {
             background: var(--yellow);
-            margin-left: 8em;
             padding: 0;
-            margin-bottom: .80em;
+            margin: 0 auto .95em;
         }
 
         #first-steps {
@@ -846,6 +842,12 @@
             width: 69%;
         }
 
+        .price-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 1em;
+        }
 
 
 
