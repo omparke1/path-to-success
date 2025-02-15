@@ -1,4 +1,4 @@
-/* fonts */
+/* Imported Fonts */
 /* cyrillic-ext */
 @font-face {
     font-family: 'Inter';
@@ -144,6 +144,57 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  /*-------------------- CSS REST ---------------------------------------------------*/
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------- ROOT VARIABLES --------------------------------------- */
   :root {
   --title: 'Kavoon', Serif;
   --main-text: 'Inter', Serif;
@@ -155,8 +206,7 @@
   --dark-gray:#1E1E1E; 
   --white:#ffffff; 
   }
-
-/* Small Screen */
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*//* Global Styles (Small Screen) */
     @media only screen and (min-width: 450px)
 
     {
@@ -224,11 +274,11 @@
             font-size: .75em;
             display: block;
             float: left;
-            right: 30px;
+            right: -2px;
         }
 
         ul li ul.dropdown {
-            width: 77%;
+            width: 125.5%;
             background: var(--yellow);
             position: absolute;
             z-index: 999;
@@ -505,7 +555,7 @@
 
         #choose-us {
             background: var(--pink);
-            padding: 1em 1em .75em;
+            padding: 1em 1em 1em;
             margin-top: 1.5em;
             height: auto;
         }
@@ -519,6 +569,7 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap: 1.50em;
+            margin-left: 2.5em;
         }
         #green {
             background: var(--teal);
@@ -582,8 +633,12 @@
 
         table#one-one-table {
             background: var(--yellow);
-            margin: 0 auto;
+            margin: 0 auto 1em;
             padding: 0;
+        }
+
+        #price h2 {
+            padding-top: 1em;
         }
 
         tr > th {
@@ -594,6 +649,7 @@
 
         tr > td {
             background: var(--white);
+            border: 2px solid var(--yellow);
             font-family: var(--main-text);
             padding: 1em;
         }
@@ -601,13 +657,13 @@
         table#group-table {
             background: var(--yellow);
             padding: 0;
-            margin: 0 auto;
+            margin: 0 auto 1em;
         }
 
         table#workshops-table {
             background: var(--yellow);
             padding: 0;
-            margin: 0 auto;
+            margin: 0 auto 1em;
         }
 
         table#online-table {
@@ -676,7 +732,7 @@
         }
     }
 
- /* Medium Screen */
+ /*-------------------- MEDIA QUERY (medium) --------------------------------*/
     @media only screen and (min-width: 620px) {
 
         body {
@@ -783,7 +839,7 @@
             grid-template-rows: 1fr;
             flex-wrap: wrap;
             gap: 1em;
-            margin-left: 0;
+            margin-left: 2.3em;
         }
 
 
@@ -854,7 +910,7 @@
         
     }
 
- /* Large Screen */
+ /*-------------------- MEDIA QUERY (large) ------------------------------------*/
     @media only screen and (min-width: 950px) {
 
         nav ul.menu {
@@ -1031,16 +1087,15 @@
         #online h3 {
             display: flex;
             position: relative; 
-            top: -1.2em;
             left: 9em;
             width: 100%;
-            margin: 0;
+            margin-top: .50em;
         }
 
         #flex-learn {
             flex-direction: column;
             width: 102%;
-            margin: 1.2em auto 0 1em;
+            margin: 2.8em auto 0 1em;
         }
 
         #flex-learn p, #flex-learn h4, #flex-learn img {
@@ -1049,6 +1104,10 @@
 
         #choose-us {
             width: 102%;
+        }
+
+        #box-container {
+            margin-right: 1em;
         }
 
         .price-container {
@@ -1062,7 +1121,7 @@
 
         #one-1 h3 {
             display: flex;
-            width: 118%;
+            width: 120%;
             justify-content: center;
             padding-left: 0;
             margin-left:-30px;
@@ -1097,6 +1156,7 @@
         }  
     }
 
+    /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
     @media only screen and (min-width: 1280px) {
         body {
             padding: 0 8em 3em 6em;
